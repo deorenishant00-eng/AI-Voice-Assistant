@@ -1,5 +1,5 @@
 # AI-Voice-Assistant
-
+An AI-powered voice assistant built with Python that uses speech recognition, natural language processing, and text-to-speech to understand voice commands and provide intelligent responses.
 
 # Project Overview
 
