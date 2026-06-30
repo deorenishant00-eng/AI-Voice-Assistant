@@ -7,6 +7,15 @@ engine = pt.init()   # ✅ fixed
 
 
 def speak(text):
+    rate = engine.getProperty('rate')
+    engine.setProperty('rate', rate - 50)
+    
+    volume = engine.getProperty('volume')
+    engine.setProperty('volume', 0.8)
+    
+    voices = engine.getProperty('voices')
+    engine.setProperty('voice', voices[1].id)
+    
     engine.say(text)
     engine.runAndWait()
 
